@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+html { background: #f2ede2; }
+
+body {
+  margin: 0;
+  color: #171613;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 320px;
+}
+
+button { font: inherit; }
+
+img { display: block; }
+
+::selection { background: #e5c5ff; color: #171613; }
