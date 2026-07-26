@@ -5,7 +5,7 @@ import useMatterEngine from "./useMatterEngine";
 import useObjectSpawner from "./useObjectSpawner";
 import useScrollCamera from "./useScrollCamera";
 
-export default function BagelCanvas() {
+export default function BagelCanvas({ className = "" }) {
   const canvasRef = useRef(null);
   const frameRef = useRef(null);
   const isVisibleRef = useRef(true);
@@ -116,7 +116,7 @@ export default function BagelCanvas() {
   return (
     <canvas
       ref={canvasRef}
-      className="pointer-events-none fixed inset-0 z-0"
+      className={`pointer-events-none fixed inset-0 z-0 ${className}`}
       aria-hidden="true"
     />
   );

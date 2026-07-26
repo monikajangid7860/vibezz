@@ -40,7 +40,7 @@ export default function TestimonialCard({ testimonial, progress }) {
 
   return (
     <motion.article
-      className={`absolute z-0 w-[min(17.5rem,calc(100vw-2.5rem))] will-change-transform sm:w-72 ${testimonial.mobilePosition} ${testimonial.desktopPosition}`}
+      className={`absolute z-30 w-[min(17.5rem,calc(100vw-2.5rem))] will-change-transform sm:w-72 ${testimonial.mobilePosition} ${testimonial.desktopPosition}`}
       style={{ opacity, scale, rotate, y }}
     >
       {testimonial.sparkle && <Sparkle />}
