@@ -67,7 +67,7 @@ export default function CafeStorySection() {
             transition={{ duration: .35 }}
             src={images[0]}
             alt=""
-            className="absolute right-12 top-0 h-[78%] w-[74%] rounded-[34px] object-cover shadow-[0_30px_80px_rgba(0,0,0,.22)] rotate-[-8deg]"
+            className="absolute right-12 top-0 h-[78%] w-[74%] rounded-[34px] object-cover shadow-[0_30px_80px_rgba(0,0,0,.22)] rotate-[-8deg] hidden lg:block"
           />
 
           {/* Middle */}
