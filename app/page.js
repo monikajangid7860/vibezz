@@ -2,6 +2,7 @@ import BagelCanvas from "../components/BagelPhysics";
 import FoodOrbit from "../components/FoodOrbit/FoodOrbit";
 import InteractiveAccordion from "../components/InteractiveAccordion/InteractiveAccordion";
 import Asection from "../components/BagelPhysics/Asection";
+import StickyTestimonials from "../components/StickyTestimonials/StickyTestimonials";
 const sections = [
   ["01", "Boiled, then baked.", "The best bagels take their time. Ours start before sunrise, with a long ferment and a proper boil."],
   ["02", "A little ritual.", "Sesame on your sleeve, coffee in hand, a slow corner of the day that belongs only to you."],
@@ -33,7 +34,8 @@ export default function Home() {
         ))}
       </div> */}
       <Asection/>
-      <footer className="relative z-10 mx-auto flex min-h-[108vh] lg:min-h-[78vh] max-w-[1600px] flex-col justify-end overflow-hidden rounded-t-[3rem] bg-[#322318]/72 px-7 pb-10 pt-24 text-[#fff8ed] backdrop-blur-[1px] sm:px-14 sm:pb-14">
+      <StickyTestimonials/>
+      <footer className="relative z-10 mx-auto flex min-h-[90vh] lg:min-h-[78vh] max-w-[1600px] flex-col justify-end overflow-hidden rounded-t-[3rem] bg-[#322318]/72 px-7 pb-10 pt-24 text-[#fff8ed] backdrop-blur-[1px] sm:px-14 sm:pb-14">
         <p className="text-[10px] font-bold uppercase tracking-[0.28em] text-[#472905]">Fresh from the oven</p>
         <div className="mt-5 flex flex-wrap items-end justify-between gap-8 border-t border-white/20 pt-6">
           <h2 className="font-display text-[clamp(4rem,10vw,9rem)] leading-[0.75] tracking-[-0.07em]">Come hungry.</h2>
