@@ -3,9 +3,9 @@
 import { motion } from "framer-motion";
 
 const images = [
-  "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80",
-  "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&q=80",
-  "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1200&q=80",
+  "https://cdn.prod.website-files.com/6a0b23e95c87a2a35ab59d39/6a188f479c8bffb562f45de8_SunbeamCatering_Img1.webp?w=1200&q=80",
+  "https://cdn.prod.website-files.com/6a0b23e95c87a2a35ab59d39/6a188f472c916d950c4a99b3_SunbeamCatering_Hero2.webp?w=1200&q=80",
+  "https://cdn.prod.website-files.com/6a0b23e95c87a2a35ab59d39/6a188f47aede5b8200efcb90_SunbeamCatering_Hero1.webp?w=1200&q=80",
 ];
 
 export default function CafeStorySection() {

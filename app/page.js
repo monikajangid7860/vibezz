@@ -33,11 +33,11 @@ export default function Home() {
         ))}
       </div> */}
       <Asection/>
-      <footer className="relative z-10 mx-auto flex min-h-[78vh] max-w-[1600px] flex-col justify-end overflow-hidden rounded-t-[3rem] bg-[#322318]/72 px-7 pb-10 pt-24 text-[#fff8ed] backdrop-blur-[1px] sm:px-14 sm:pb-14">
-        <p className="text-[10px] font-bold uppercase tracking-[0.28em] text-[#e2ba89]">Fresh from the oven</p>
+      <footer className="relative z-10 mx-auto flex min-h-[108vh] lg:min-h-[78vh] max-w-[1600px] flex-col justify-end overflow-hidden rounded-t-[3rem] bg-[#322318]/72 px-7 pb-10 pt-24 text-[#fff8ed] backdrop-blur-[1px] sm:px-14 sm:pb-14">
+        <p className="text-[10px] font-bold uppercase tracking-[0.28em] text-[#472905]">Fresh from the oven</p>
         <div className="mt-5 flex flex-wrap items-end justify-between gap-8 border-t border-white/20 pt-6">
           <h2 className="font-display text-[clamp(4rem,10vw,9rem)] leading-[0.75] tracking-[-0.07em]">Come hungry.</h2>
-          <p className="max-w-48 text-sm leading-relaxed text-white/65">Open every day, 7am until sold out.</p>
+          <p className="max-w-48 text-sm leading-relaxed text-[#442b03]">Open every day, 7am until sold out.</p>
         </div>
       </footer>
     </main>
