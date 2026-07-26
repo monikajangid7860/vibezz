@@ -1,3 +1,4 @@
+import BagelCanvas from "../components/BagelPhysics";
 import FoodOrbit from "../components/FoodOrbit/FoodOrbit";
 import InteractiveAccordion from "../components/InteractiveAccordion/InteractiveAccordion";
 import Asection from "../components/BagelPhysics/Asection";
@@ -11,6 +12,7 @@ const sections = [
 export default function Home() {
   return (
     <main className="relative min-h-[320vh] overflow-x-clip bg-[#e9dfcf] text-[#302217]">
+      <BagelCanvas />
       <FoodOrbit/>
       <InteractiveAccordion/>
       <section className="relative z-10 flex min-h-screen items-center justify-center px-6 text-center">

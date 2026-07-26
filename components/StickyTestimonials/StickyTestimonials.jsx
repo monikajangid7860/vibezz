@@ -2,7 +2,6 @@
 
 import { useRef } from "react";
 import { useScroll, useSpring } from "framer-motion";
-import BagelCanvas from "../BagelPhysics";
 import TestimonialCard from "./TestimonialCard";
 import testimonialData from "./testimonialData";
 
@@ -27,12 +26,11 @@ export default function StickyTestimonials({ testimonials = testimonialData }) {
       className="relative h-[470vh] overflow-clip bg-[#f2ede2]"
     >
       <div className="sticky top-0 h-svh overflow-hidden">
-        <div className="pointer-events-none absolute inset-0 z-0 bg-[radial-gradient(circle_at_50%_48%,rgba(255,255,255,0.8),transparent_53%)]" />
-        <BagelCanvas className="!absolute inset-0 z-10 h-full w-full" />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_48%,rgba(255,255,255,0.8),transparent_53%)]" />
 
         <h2
           id="testimonial-heading"
-          className="pointer-events-none absolute left-1/2 top-1/2 z-20 w-full -translate-x-1/2 -translate-y-1/2 text-center font-display text-[clamp(3.1rem,10vw,9.5rem)] font-black leading-[0.78] tracking-[-0.075em] text-[#241f19]"
+          className="pointer-events-none absolute left-1/2 top-1/2 z-30 w-full -translate-x-1/2 -translate-y-1/2 text-center font-display text-[clamp(3.1rem,10vw,9.5rem)] font-black leading-[0.78] tracking-[-0.075em] text-[#241f19]"
         >
           <span className="block">They Drizzle</span>
           <span className="block">They Dunk</span>
