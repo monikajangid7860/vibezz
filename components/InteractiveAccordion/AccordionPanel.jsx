@@ -123,19 +123,19 @@ export function MobilePanel({
     >
       <button
         onClick={onActivate}
-        className="flex w-full items-center justify-between p-6 text-left"
+        className="flex w-full items-center justify-between p-3 text-left"
       >
         <div>
           <p className="text-xs uppercase tracking-[0.22em]">
             {panel.number}
           </p>
 
-          <h2 className="mt-1 text-3xl font-bold">
+          <h2 className="mt-1 text-sm font-bold">
             {panel.heading}
           </h2>
         </div>
 
-        <span className="text-3xl">
+        <span className="text-xl">
           {isActive ? "−" : "+"}
         </span>
       </button>

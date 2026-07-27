@@ -170,7 +170,7 @@ export default function BakeryMenuShowcase() {
         </div>
 
         {/* ================= MENU SIDE ================= */}
-        <div className="relative flex flex-col justify-center px-6 py-12 sm:px-10 md:px-14 lg:basis-[45%] lg:px-16 lg:py-0">
+        <div className="relative flex flex-col justify-center px-6 py-3 sm:px-10 md:px-14 lg:basis-[45%] lg:px-16 lg:py-0">
           <motion.div
             initial="hidden"
             animate="visible"

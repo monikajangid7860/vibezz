@@ -22,7 +22,7 @@ export default function InteractiveAccordion() {
       </div>
 
       {/* Mobile */}
-      <div className="space-y-3 md:hidden">
+      <div className="space-y-2 md:hidden">
         {panelData.map((panel) => (
           <MobilePanel
             key={panel.id}
