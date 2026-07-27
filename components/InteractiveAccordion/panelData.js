@@ -1,14 +1,5 @@
 const panelData = [
-  {
-    id: "artisan-bread",
-    title: "Artisan",
-    heading: "Fresh Bread",
-    subtitle: "Baked before the sun rises",
-    number: "01",
-    color: "#C57B57", // Warm Bread Brown
-    description:
-      "Every loaf begins with slow fermentation and is baked fresh each morning, creating a crisp crust and a soft, flavorful center.",
-  },
+  
   {
     id: "croissants",
     title: "Butter",
