@@ -62,7 +62,7 @@ const STICKERS = [
     id: "pepper",
     src: "https://banhmivietnam.xyz/img/Footer%20paper%20center.png",
     alt: "Fresh red chili pepper",
-    position: "left-[54%] top-[60%] w-[19vw] sm:w-[17vw] md:w-[15.5vw] lg:w-[24.5vw]",
+    position: "left-[54%] top-[60%] w-[39vw] sm:w-[37vw] md:w-[15.5vw] lg:w-[24.5vw]",
     baseRotate: 6,
     z: 30,
     float: {
@@ -141,7 +141,7 @@ export default function EditorialFoodSection() {
   const reduceMotion = useReducedMotion();
 
   return (
-    <section className="relative h-screen w-full overflow-hidden bg-[#8a3418]">
+    <section className="relative h-[70vh] lg:min-h-screen w-full overflow-hidden bg-[#8a3418]">
       {/* Display / accent typeface */}
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,900;1,9..144,500&display=swap');
@@ -153,8 +153,8 @@ export default function EditorialFoodSection() {
 
       {/* Layer 2 — large faded food photograph */}
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-[0.16] mix-blend-overlay"
-        style={{ backgroundImage: "url('/images/banh-mi-photo-bg.jpg')" }}
+        className="absolute inset-0 bg-cover bg-center opacity-[0.5] mix-blend-overlay"
+        style={{ backgroundImage: "url('https://banhmivietnam.xyz/img/Footer%20banh%20mi.png')" }}
         aria-hidden="true"
       />
 
@@ -194,8 +194,8 @@ export default function EditorialFoodSection() {
           className="font-display font-black text-[#f4e9d8] leading-[0.85] text-center select-none"
           style={{ fontSize: "min(22vw, 230px)", width: "min(75vw, 1100px)" }}
         >
-          <span className="block">BÁNH</span>
-          <span className="block">MI</span>
+          <span className="block">FRESH</span>
+          <span className="block">BAKES</span>
         </motion.h1>
 
         {/* Torn paper strip — centered over the headline, its own
@@ -215,7 +215,7 @@ export default function EditorialFoodSection() {
             }}
           >
             <p className="font-display italic font-medium text-[#5a2a12] text-center text-sm sm:text-base md:text-lg tracking-wide">
-              Let&apos;s visit Vietnam and enjoy
+              Let&apos;s visit Bangaluru and enjoy
             </p>
           </motion.div>
         </div>
