@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-const PEPPER_SRC = "https://terryhoproducts.com/cdn/shop/files/spicy.png?v=1778277149&width=750";
+const PEPPER_SRC = "https://terryhoproducts.com/cdn/shop/files/spicy.png?v=1778277149&width=950";
 
 export default function HeroHeading() {
   return (

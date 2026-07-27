@@ -62,7 +62,7 @@ const STICKERS = [
     id: "pepper",
     src: "https://banhmivietnam.xyz/img/Footer%20paper%20center.png",
     alt: "Fresh red chili pepper",
-    position: "left-[54%] top-[60%] w-[39vw] sm:w-[37vw] md:w-[15.5vw] lg:w-[24.5vw]",
+    position: "left-[54%] top-[60%] w-[59vw] sm:w-[37vw] md:w-[15.5vw] lg:w-[24.5vw]",
     baseRotate: 6,
     z: 30,
     float: {
@@ -154,7 +154,7 @@ export default function EditorialFoodSection() {
       {/* Layer 2 — large faded food photograph */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-[0.5] mix-blend-overlay"
-        style={{ backgroundImage: "url('https://banhmivietnam.xyz/img/Footer%20banh%20mi.png')" }}
+        style={{ backgroundImage: "url('https://banhmivietnam.xyz/img/Street%20image%202.png')" }}
         aria-hidden="true"
       />
 
@@ -201,7 +201,7 @@ export default function EditorialFoodSection() {
         {/* Torn paper strip — centered over the headline, its own
             wrapper handles static centering so it never fights with
             Framer Motion's transform on the inner element. */}
-        <div className="absolute z-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[min(72vw,540px)]">
+        {/* <div className="absolute z-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[min(72vw,540px)]">
           <motion.div
             initial={{ opacity: 0, y: 10, rotate: -1 }}
             animate={{ opacity: 1, y: 0, rotate: -3 }}
@@ -218,7 +218,7 @@ export default function EditorialFoodSection() {
               Let&apos;s visit Bangaluru and enjoy
             </p>
           </motion.div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
