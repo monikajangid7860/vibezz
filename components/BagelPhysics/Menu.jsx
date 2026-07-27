@@ -109,10 +109,10 @@ export default function BakeryMenuShowcase() {
       {/* paper / editorial background texture */}
       <div
         className="pointer-events-none absolute inset-0"
-        style={{
-          backgroundImage:
-            "radial-gradient(circle at 12% 18%, rgba(178,136,86,0.14), transparent 45%), radial-gradient(circle at 88% 82%, rgba(120,80,50,0.10), transparent 50%), radial-gradient(circle at 50% 100%, rgba(178,136,86,0.08), transparent 60%)",
-        }}
+        // style={{
+        //   backgroundImage:
+        //     "radial-gradient(circle at 12% 18%, rgba(178,136,86,0.14), transparent 45%), radial-gradient(circle at 88% 82%, rgba(120,80,50,0.10), transparent 50%), radial-gradient(circle at 50% 100%, rgba(178,136,86,0.08), transparent 60%)",
+        // }}
       />
       <div
         className="pointer-events-none absolute inset-0 opacity-[0.035] mix-blend-multiply"

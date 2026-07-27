@@ -16,7 +16,7 @@ const sections = [
 export default function Home() {
   return (
     <><Header/>
-    <main className="relative min-h-[200vh] overflow-x-clip bg-[#e9dfcf] text-[#302217]">
+    <main className="relative pt-[3rem] min-h-[200vh] overflow-x-clip bg-[#e9dfcf] text-[#302217]">
       <BagelCanvas />
       <FoodOrbit/>
       <InteractiveAccordion/>
