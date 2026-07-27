@@ -178,7 +178,7 @@ export default function BakeryMenuShowcase() {
           >
             <motion.p
               variants={itemVariants}
-              className="text-[21px] tracking-[0.35em]"
+              className="text-[41px] tracking-[0.35em]"
               style={{ fontFamily: BODY_FONT, color: BROWN, opacity: 0.55 }}
             >
               THE MENU

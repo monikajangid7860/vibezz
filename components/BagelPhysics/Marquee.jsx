@@ -18,7 +18,7 @@ export default function ImageStrip() {
   const items = [...images, ...images];
 
   return (
-    <section className="overflow-hidden bg-[#e9dfcf] py-6">
+    <section className="overflow-hidden bg-[#e9dfcf] py-3">
       <motion.div
         className="flex w-max gap-8"
         animate={{
