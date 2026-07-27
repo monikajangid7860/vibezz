@@ -6,7 +6,7 @@ const PEPPER_SRC = "https://terryhoproducts.com/cdn/shop/files/spicy.png?v=17782
 
 export default function HeroHeading() {
   return (
-    <h1 className="mt-5 font-display text-[clamp(7.6rem,12vw,11.5rem)] leading-[0.75] tracking-[-0.075em]">
+    <h1 className="mt-5 font-display text-[clamp(6.6rem,12vw,11.5rem)] leading-[0.75] tracking-[-0.075em]">
       <span className="flex flex-wrap items-center justify-center gap-x-[0.08em] gap-y-0">
         <span>Good</span>
         <motion.span

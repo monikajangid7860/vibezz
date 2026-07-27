@@ -141,7 +141,7 @@ export default function EditorialFoodSection() {
   const reduceMotion = useReducedMotion();
 
   return (
-    <section className="relative h-[75vh] lg:min-h-screen w-full overflow-hidden bg-[#8a3418]">
+    <section className="relative h-[80vh] lg:min-h-screen w-full overflow-hidden bg-[#8a3418]">
       {/* Display / accent typeface */}
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,900;1,9..144,500&display=swap');
