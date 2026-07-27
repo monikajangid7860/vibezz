@@ -5,7 +5,7 @@ const panelData = [
     heading: "Fresh Bread",
     subtitle: "Baked before the sun rises",
     number: "01",
-    color: "#C57B57", // Warm Bread Brown
+    color: "#f5dddd", // Warm Bread Brown
     description:
       "Every loaf begins with slow fermentation and is baked fresh each morning, creating a crisp crust and a soft, flavorful center.",
   },

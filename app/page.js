@@ -26,10 +26,10 @@ export default function Home() {
         <div className="max-w-4xl rounded-[2rem] bg-[#e9dfcf]/72 px-7 py-5 backdrop-blur-[2px] sm:px-14 sm:py-14">
           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#886a50]">The neighborhood bakery</p>
           <HeroHeading />
-          <Marquee/>
           <p className="mx-auto mt-8 max-w-sm text-sm leading-relaxed text-[#745a44] sm:text-base">Scroll slowly. The kitchen is already at work.</p>
         </div>
       </section>
+          <Marquee/>
       {/* <div className="relative z-10 mx-auto max-w-6xl px-6 pb-[65vh]">
         {sections.map(([number, title, copy], index) => (
           <section key={number} className={`flex min-h-[72vh] items-center ${index % 2 ? "justify-end" : "justify-start"}`}>
