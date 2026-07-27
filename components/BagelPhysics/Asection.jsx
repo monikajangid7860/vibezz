@@ -62,7 +62,7 @@ const STICKERS = [
     id: "pepper",
     src: "https://banhmivietnam.xyz/img/Footer%20paper%20center.png",
     alt: "Fresh red chili pepper",
-    position: "left-[54%] top-[60%] w-[9vw] sm:w-[17vw] md:w-[15.5vw] lg:w-[24.5vw]",
+    position: "left-[54%] top-[60%] w-[19vw] sm:w-[17vw] md:w-[15.5vw] lg:w-[24.5vw]",
     baseRotate: 6,
     z: 30,
     float: {
@@ -78,7 +78,7 @@ const STICKERS = [
     id: "herb",
     src: "https://banhmivietnam.xyz/img/Coriander.png?width=300",
     alt: "Sprig of Vietnamese coriander",
-    position: "left-[15%] top-[74%] w-[7vw] sm:w-[25.5vw] md:w-[40vw] lg:w-[30.4vw]",
+    position: "left-[15%] top-[74%] w-[27vw] sm:w-[25.5vw] md:w-[40vw] lg:w-[30.4vw]",
     baseRotate: -20,
     z: 30,
     float: {

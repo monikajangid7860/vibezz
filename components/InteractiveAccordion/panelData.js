@@ -1,53 +1,53 @@
 const panelData = [
   {
-    id: "mont-royal",
-    title: "Harline",
-    heading: "Mont-Royal",
-    subtitle: "A hill above the everyday",
+    id: "artisan-bread",
+    title: "Artisan",
+    heading: "Fresh Bread",
+    subtitle: "Baked before the sun rises",
     number: "01",
-    color: "#d94b91",
+    color: "#C57B57", // Warm Bread Brown
     description:
-      "A quiet climb through stone paths, old trees, and wide-open views. Mont-Royal is where the city slows down long enough to notice itself.",
+      "Every loaf begins with slow fermentation and is baked fresh each morning, creating a crisp crust and a soft, flavorful center.",
   },
   {
-    id: "little-burgundy",
-    title: "Bristol",
-    heading: "Little Burgundy",
-    subtitle: "Rhythm in the brickwork",
+    id: "croissants",
+    title: "Butter",
+    heading: "Croissants",
+    subtitle: "Layers worth waking up for",
     number: "02",
-    color: "#ec713e",
+    color: "#E2B65B", // Golden Butter
     description:
-      "Record stores, warm cafés, and the low hum of evening patios give this historic neighbourhood a soulful, lived-in energy.",
+      "Made with premium butter and carefully folded dough, our croissants are light, flaky, and perfectly golden with every bake.",
   },
   {
-    id: "mile-end",
-    title: "Violet",
-    heading: "Mile End",
-    subtitle: "Ideas between the blocks",
+    id: "pastries",
+    title: "Sweet",
+    heading: "Pastries",
+    subtitle: "A little indulgence every day",
     number: "03",
-    color: "#8c6add",
+    color: "#D98C8C", // Strawberry Cream
     description:
-      "Studios, bakeries, and late-night conversations meet in an area that makes room for curiosity at every corner.",
+      "From fruit tarts to creamy éclairs, each pastry is handcrafted with seasonal ingredients and finished with delicate details.",
   },
   {
-    id: "old-port",
-    title: "Solenne",
-    heading: "Old Port",
-    subtitle: "The city’s long memory",
+    id: "cakes",
+    title: "Celebrate",
+    heading: "Signature Cakes",
+    subtitle: "Made for every occasion",
     number: "04",
-    color: "#e0bd45",
+    color: "#7A4A2F", // Chocolate Brown
     description:
-      "Along the water, century-old facades frame an unhurried promenade where history and contemporary city life overlap.",
+      "Elegant celebration cakes layered with rich fillings and handcrafted finishes, perfect for birthdays, weddings, and special moments.",
   },
   {
-    id: "verdun",
-    title: "Alouette",
-    heading: "Verdun",
-    subtitle: "A softer edge of town",
+    id: "coffee",
+    title: "Brew",
+    heading: "Coffee",
+    subtitle: "The perfect bakery companion",
     number: "05",
-    color: "#77bca7",
+    color: "#6D8C5B", // Pistachio Green
     description:
-      "Riverside paths and independent storefronts lend Verdun its generous pace: polished, familiar, and effortlessly bright.",
+      "Expertly brewed specialty coffee made from freshly roasted beans, pairing beautifully with every loaf, pastry, and dessert.",
   },
 ];
 

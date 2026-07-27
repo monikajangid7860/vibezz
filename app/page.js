@@ -16,7 +16,7 @@ export default function Home() {
       <BagelCanvas />
       <FoodOrbit/>
       <InteractiveAccordion/>
-      <section className="relative z-10 flex min-h-screen items-center justify-center px-6 text-center">
+      <section className="relative z-10 flex min-h-[75vh] md:min-h-screen items-center justify-center px-6 text-center">
         <div className="max-w-4xl rounded-[2rem] bg-[#e9dfcf]/72 px-7 py-10 backdrop-blur-[2px] sm:px-14 sm:py-14">
           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#886a50]">The neighborhood bakery</p>
           <HeroHeading />
