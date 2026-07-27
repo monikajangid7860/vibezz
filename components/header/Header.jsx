@@ -31,8 +31,7 @@ const MOBILE_LINKS = [...NAV_LEFT, ...NAV_RIGHT];
 
 const SOCIALS = [
   { label: 'Instagram', href: 'https://instagram.com' },
-  { label: 'Pinterest', href: 'https://pinterest.com' },
-  { label: 'Email', href: 'mailto:hello@bakery.com' },
+  
 ];
 
 const EASE = [0.22, 1, 0.36, 1];
@@ -48,7 +47,7 @@ function NavLink({ href, label, pathname, reduceMotion }) {
         whileHover={reduceMotion ? {} : { y: -2 }}
         transition={{ duration: 0.3, ease: 'easeOut' }}
         style={FONT_NAV}
-        className={`relative inline-block whitespace-nowrap rounded-full px-4 py-2 text-[13px] font-medium uppercase tracking-[0.15em] transition-colors duration-300 sm:text-[14px] ${
+        className={`relative inline-block whitespace-nowrap rounded-full px-4 py-2 text-[13px] font-medium uppercase tracking-[0.15em] transition-colors duration-300 sm:text-[10px] ${
           active ? 'text-[#3A2A1D]' : 'text-[#3A2A1D]/65 group-hover:text-[#3A2A1D]'
         }`}
       >
@@ -268,7 +267,7 @@ export default function Header() {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: -20, scale: 0.97 }}
               transition={{ type: 'spring', stiffness: 260, damping: 26 }}
-              className="fixed left-1/2 top-[104px] z-50 w-[calc(100%-2.5rem)] max-w-[540px] -translate-x-1/2 rounded-[40px] bg-[#FAF6EE] p-8 shadow-[0_30px_80px_rgba(42,29,20,0.28)] sm:top-[112px] sm:p-10"
+              className="fixed left-1/2 top-[104px] z-50 w-[200px] max-w-[140px] -translate-x-1/2 rounded-[40px] bg-[#FAF6EE] p-8 shadow-[0_30px_80px_rgba(42,29,20,0.28)] sm:top-[112px] sm:p-10"
             >
               <motion.nav
                 initial="hidden"
@@ -287,7 +286,7 @@ export default function Header() {
                         whileHover={reduceMotion ? {} : { x: 10, rotate: -1 }}
                         transition={{ type: 'spring', stiffness: 300, damping: 20 }}
                         style={FONT_DISPLAY}
-                        className="relative inline-block py-1.5 text-[42px] leading-[1.05] text-[#3A2A1D]/75 transition-colors duration-300 group-hover:text-[#3A2A1D] sm:text-[54px]"
+                        className="relative inline-block py-1.5 text-[12px] leading-[1.05] text-[#3A2A1D]/75 transition-colors duration-300 group-hover:text-[#3A2A1D] sm:text-[54px]"
                       >
                         {link.label}
                         <span className="pointer-events-none absolute left-0 -bottom-1 h-[2px] w-0 bg-[#B98859] transition-all duration-300 ease-out group-hover:w-full" />
@@ -311,7 +310,7 @@ export default function Header() {
                       whileHover={reduceMotion ? {} : { x: 10, rotate: -1 }}
                       transition={{ type: 'spring', stiffness: 300, damping: 20 }}
                       style={FONT_DISPLAY}
-                      className="relative inline-block py-1.5 text-[42px] italic leading-[1.05] text-[#8A5A32] transition-colors duration-300 group-hover:text-[#3A2A1D] sm:text-[54px]"
+                      className="relative inline-block py-1.5 text-[12px] italic leading-[1.05] text-[#8A5A32] transition-colors duration-300 group-hover:text-[#3A2A1D] sm:text-[54px]"
                     >
                       Order Now
                       <span className="pointer-events-none absolute left-0 -bottom-1 h-[2px] w-0 bg-[#B98859] transition-all duration-300 ease-out group-hover:w-full" />
@@ -327,7 +326,7 @@ export default function Header() {
                     href={s.href}
                     target={s.href.startsWith('http') ? '_blank' : undefined}
                     rel={s.href.startsWith('http') ? 'noreferrer' : undefined}
-                    className="text-[11px] uppercase tracking-[0.15em] text-[#3A2A1D]/45 transition-colors duration-300 hover:text-[#3A2A1D]"
+                    className="text-[8px] uppercase tracking-[0.15em] text-[#3A2A1D]/45 transition-colors duration-300 hover:text-[#3A2A1D]"
                   >
                     {s.label}
                   </a>
