@@ -28,7 +28,7 @@ const menuItems = [
     description:
       "Soft, fluffy layers finished with silky vanilla glaze.",
     image:
-      "https://terryhoproducts.com/cdn/shop/files/ginger.png?v=1778277177&width=750",
+      "https://terryhoproducts.com/cdn/shop/files/ginger.png?v=1778277177&width=650",
   },
   {
     title: "CHOCOLATE ÉCLAIR",
@@ -37,13 +37,7 @@ const menuItems = [
     image:
       "https://framerusercontent.com/images/FEHkn8uKZ9ErR1JlEleqeFC7KA.webp?scale-down-to=1024&width=1706&height=2560",
   },
-  {
-    title: "STRAWBERRY TART",
-    description:
-      "Fresh strawberries on delicate pastry cream and buttery crust.",
-    image:
-      "https://framerusercontent.com/images/i8dodqvPFf2QdEJZDEyAwVAY58.webp?scale-down-to=1024&width=2188&height=2560",
-  },
+  
   {
     title: "SIGNATURE CHEESECAKE",
     description:
