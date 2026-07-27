@@ -6,6 +6,10 @@ const IMAGE_SOURCES = [
   "/images/donut.webp",
   "/images/donu.webp",
   "/images/what.webp",
+  "/images/pink.png",
+  "/images/packet.png",
+  "/images/cake.png",
+  "/images/light.png"
   
 ];
 

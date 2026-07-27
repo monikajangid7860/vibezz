@@ -2,6 +2,7 @@ import BagelCanvas from "../components/BagelPhysics";
 import FoodOrbit from "../components/FoodOrbit/FoodOrbit";
 import InteractiveAccordion from "../components/InteractiveAccordion/InteractiveAccordion";
 import Asection from "../components/BagelPhysics/Asection";
+import HeroHeading from "../components/HeroHeading/HeroHeading";
 import StickyTestimonials from "../components/StickyTestimonials/StickyTestimonials";
 const sections = [
   ["01", "Boiled, then baked.", "The best bagels take their time. Ours start before sunrise, with a long ferment and a proper boil."],
@@ -18,7 +19,7 @@ export default function Home() {
       <section className="relative z-10 flex min-h-screen items-center justify-center px-6 text-center">
         <div className="max-w-4xl rounded-[2rem] bg-[#e9dfcf]/72 px-7 py-10 backdrop-blur-[2px] sm:px-14 sm:py-14">
           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#886a50]">The neighborhood bakery</p>
-          <h1 className="mt-5 font-display text-[clamp(4.6rem,12vw,11.5rem)] leading-[0.75] tracking-[-0.075em]">Good things<br />take time.</h1>
+          <HeroHeading />
           <p className="mx-auto mt-8 max-w-sm text-sm leading-relaxed text-[#745a44] sm:text-base">Scroll slowly. The kitchen is already at work.</p>
         </div>
       </section>
@@ -34,12 +35,13 @@ export default function Home() {
         ))}
       </div> */}
       <Asection/>
+      
       <StickyTestimonials/>
-      <footer className="relative z-10 mx-auto flex min-h-[100vh] lg:min-h-[78vh] max-w-[1600px] flex-col justify-end overflow-hidden rounded-t-[3rem] bg-[#322318]/72 px-7 pb-10 pt-24 text-[#fff8ed] backdrop-blur-[1px] sm:px-14 sm:pb-14">
-        <p className="text-[10px] font-bold uppercase tracking-[0.28em] text-[#472905]">Fresh from the oven</p>
+      <footer className="relative z-10 mx-auto flex min-h-[100vh] lg:min-h-[78vh] max-w-[1600px] flex-col justify-end overflow-hidden rounded-t-[3rem] bg-[#322318]/72 px-7 pb-10 pt-24 text-[#221604] backdrop-blur-[1px] sm:px-14 sm:pb-14">
+        {/* <p className="text-[10px] font-bold uppercase tracking-[0.28em] text-[#472905]">Fresh from the oven</p> */}
         <div className="mt-5 flex flex-wrap items-end justify-between gap-8 border-t border-white/20 pt-6">
-          <h2 className="font-display text-[clamp(4rem,10vw,9rem)] leading-[0.75] tracking-[-0.07em]">Come hungry.</h2>
-          <p className="max-w-48 text-sm leading-relaxed text-[#442b03]">Open every day, 7am until sold out.</p>
+          <h2 className="font-display text-[clamp(5rem,10vw,9rem)] leading-[0.75] tracking-[-0.07em]">Come hungry.</h2>
+          {/* <p className="max-w-48 text-sm leading-relaxed text-[#442b03]">Open every day, 7am until sold out.</p> */}
         </div>
       </footer>
     </main>
