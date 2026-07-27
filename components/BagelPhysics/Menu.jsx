@@ -236,7 +236,7 @@ export default function BakeryMenuShowcase() {
                         {String(idx + 1).padStart(2, "0")}
                       </span>
                       <h3
-                        className="min-w-0 flex-1 uppercase leading-[0.95] transition-opacity duration-300 [font-size:clamp(1.125rem,1vw,1rem)] md:[font-size:18px] lg:[font-size:clamp(32px,1.5vw,50px)]"
+                        className="min-w-0 flex-1 uppercase leading-[0.95] transition-opacity duration-300 [font-size:clamp(0.25rem,0.5vw,0.75rem)] md:[font-size:18px] lg:[font-size:clamp(22px,1vw,25px)]"
                         style={{
                           fontFamily: DISPLAY_FONT,
                           fontWeight: 900,
