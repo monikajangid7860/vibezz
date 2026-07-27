@@ -29,16 +29,16 @@ const panelData = [
     description:
       "From fruit tarts to creamy éclairs, each pastry is handcrafted with seasonal ingredients and finished with delicate details.",
   },
-  {
-    id: "cakes",
-    title: "Celebrate",
-    heading: "Signature Cakes",
-    subtitle: "Made for every occasion",
-    number: "04",
-    color: "#7A4A2F", // Chocolate Brown
-    description:
-      "Elegant celebration cakes layered with rich fillings and handcrafted finishes, perfect for birthdays, weddings, and special moments.",
-  },
+  // {
+  //   id: "cakes",
+  //   title: "Celebrate",
+  //   heading: "Signature Cakes",
+  //   subtitle: "Made for every occasion",
+  //   number: "04",
+  //   color: "#7A4A2F", // Chocolate Brown
+  //   description:
+  //     "Elegant celebration cakes layered with rich fillings and handcrafted finishes, perfect for birthdays, weddings, and special moments.",
+  // },
   {
     id: "cakes",
     title: "Celebrate",

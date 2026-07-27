@@ -176,13 +176,13 @@ export default function BakeryMenuShowcase() {
             animate="visible"
             variants={containerVariants}
           >
-            <motion.p
+            {/* <motion.p
               variants={itemVariants}
-              className="text-[41px] tracking-[0.35em]"
+              className="text-[41px] tracking-[0.15em]"
               style={{ fontFamily: BODY_FONT, color: BROWN, opacity: 0.55 }}
             >
               THE MENU
-            </motion.p>
+            </motion.p> */}
             <motion.h2
               variants={itemVariants}
               className="mt-3 italic"
