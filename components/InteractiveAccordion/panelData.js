@@ -39,16 +39,7 @@ const panelData = [
     description:
       "Elegant celebration cakes layered with rich fillings and handcrafted finishes, perfect for birthdays, weddings, and special moments.",
   },
-  {
-    id: "coffee",
-    title: "Brew",
-    heading: "Coffee",
-    subtitle: "The perfect bakery companion",
-    number: "05",
-    color: "#6D8C5B", // Pistachio Green
-    description:
-      "Expertly brewed specialty coffee made from freshly roasted beans, pairing beautifully with every loaf, pastry, and dessert.",
-  },
+  
 ];
 
 export default panelData;
