@@ -1,7 +1,7 @@
 import { createSeededTexture } from "./helpers";
 
 const IMAGE_SOURCES = [
-  "/images/bagel-key.png",
+  
   "/images/sandwitch.webp",
   "/images/donut.webp",
   "/images/donu.webp",
@@ -9,7 +9,10 @@ const IMAGE_SOURCES = [
   "/images/pink.png",
   "/images/packet.png",
   "/images/cake.png",
-  "/images/light.png"
+  "/images/light.png",
+  "/images/burger.webp",
+  "/images/pack.avif"
+  
   
 ];
 

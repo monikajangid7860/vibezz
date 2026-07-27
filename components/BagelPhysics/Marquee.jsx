@@ -7,9 +7,9 @@ const images = [
   "https://banhmivietnam.xyz/img/Cucumber.png",
   "https://banhmivietnam.xyz/img/Chilli.png",
   "https://banhmivietnam.xyz/img/Coriander.png",
-    "https://banhmivietnam.xyz/img/Carrot.png",
-  "https://banhmivietnam.xyz/img/Cucumber.png",
-  "https://banhmivietnam.xyz/img/Chilli.png",
+    "https://www.cravburgers.shop/_next/image?url=%2Fimg-webp%2Ftomato.webp&w=1080&q=75",
+  "https://www.cravburgers.shop/_next/image?url=%2Fimg-webp%2Flettuce.webp&w=1080&q=75",
+  "https://www.cravburgers.shop/_next/image?url=%2Fimg-webp%2Fcheese.webp&w=1080&q=75",
   "https://banhmivietnam.xyz/img/Coriander.png",
   
 ];

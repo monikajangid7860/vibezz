@@ -5,6 +5,7 @@ import Asection from "../components/BagelPhysics/Asection";
 import HeroHeading from "../components/HeroHeading/HeroHeading";
 import StickyTestimonials from "../components/StickyTestimonials/StickyTestimonials";
 import Marquee from "../components/BagelPhysics/Marquee";
+import Menu  from "../components/BagelPhysics/Menu"
 const sections = [
   ["01", "Boiled, then baked.", "The best bagels take their time. Ours start before sunrise, with a long ferment and a proper boil."],
   ["02", "A little ritual.", "Sesame on your sleeve, coffee in hand, a slow corner of the day that belongs only to you."],
@@ -18,6 +19,7 @@ export default function Home() {
       <FoodOrbit/>
       <InteractiveAccordion/>
       <Marquee/>
+      <Menu/>
       <section className="relative z-10 flex min-h-[70vh]  items-center justify-center px-6 text-center">
         <div className="max-w-4xl rounded-[2rem] bg-[#e9dfcf]/72 px-7 py-5 backdrop-blur-[2px] sm:px-14 sm:py-14">
           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#886a50]">The neighborhood bakery</p>
