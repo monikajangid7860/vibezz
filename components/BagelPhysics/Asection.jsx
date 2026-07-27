@@ -192,11 +192,14 @@ export default function EditorialFoodSection() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.1, ease: [0.16, 1, 0.3, 1] }}
           className="font-display font-black text-[#f4e9d8] leading-[0.85] text-center select-none"
-          style={{ fontSize: "min(22vw, 230px)", width: "min(75vw, 1100px)" }}
+          style={{ fontSize: "min(20vw, 230px)", width: "min(60vw, 800px)" }}
         >
           <span className="block">FRESH</span>
           <span className="block">BAKES</span>
         </motion.h1>
+        <p className="font-display italic font-medium text-[#e9b59b] text-center text-sm sm:text-base md:text-lg tracking-wide">
+          Let&apos;s visit Bangaluru and enjoy
+        </p>
 
         {/* Torn paper strip — centered over the headline, its own
             wrapper handles static centering so it never fights with
@@ -214,9 +217,6 @@ export default function EditorialFoodSection() {
               boxShadow: "0 20px 45px rgba(18,6,2,0.45)",
             }}
           >
-            <p className="font-display italic font-medium text-[#5a2a12] text-center text-sm sm:text-base md:text-lg tracking-wide">
-              Let&apos;s visit Bangaluru and enjoy
-            </p>
           </motion.div>
         </div> */}
       </div>
