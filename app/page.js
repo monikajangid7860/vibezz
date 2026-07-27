@@ -20,12 +20,13 @@ export default function Home() {
       <BagelCanvas />
       <FoodOrbit/>
       <InteractiveAccordion/>
-      <Marquee/>
-      <Menu/>
+      
+      
       <section className="relative z-10 flex min-h-[70vh]  items-center justify-center px-6 text-center">
         <div className="max-w-4xl rounded-[2rem] bg-[#e9dfcf]/72 px-7 py-5 backdrop-blur-[2px] sm:px-14 sm:py-14">
           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#886a50]">The neighborhood bakery</p>
           <HeroHeading />
+          <Marquee/>
           <p className="mx-auto mt-8 max-w-sm text-sm leading-relaxed text-[#745a44] sm:text-base">Scroll slowly. The kitchen is already at work.</p>
         </div>
       </section>
@@ -40,6 +41,7 @@ export default function Home() {
               </section>
               ))}
               </div> */}
+              <Menu/>
       <Asection/>
       
       <StickyTestimonials/>

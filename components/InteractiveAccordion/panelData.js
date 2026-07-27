@@ -45,7 +45,7 @@ const panelData = [
     heading: "Signature Cakes",
     subtitle: "Made for every occasion",
     number: "04",
-    color: "#7A4b2F", // Chocolate Brown
+    color: "#eec1ad", // Chocolate Brown
     description:
       "Elegant celebration cakes layered with rich fillings and handcrafted finishes, perfect for birthdays, weddings, and special moments.",
   },
