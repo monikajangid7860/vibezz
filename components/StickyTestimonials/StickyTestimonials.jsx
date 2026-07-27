@@ -30,7 +30,7 @@ export default function StickyTestimonials({ testimonials = testimonialData }) {
 
         <h2
           id="testimonial-heading"
-          className="pointer-events-none absolute left-1/2 top-1/2 z-30 w-full -translate-x-1/2 -translate-y-1/2 text-center font-display text-[clamp(3.1rem,10vw,9.5rem)] font-black leading-[0.78] tracking-[-0.075em] text-[#241f19]"
+          className="pointer-events-none absolute left-1/2 top-1/2 z-0 w-full -translate-x-1/2 -translate-y-1/2 text-center font-display text-[clamp(3.1rem,10vw,9.5rem)] font-black leading-[0.78] tracking-[-0.075em] text-[#241f19]"
         >
           <span className="block">They Drizzle</span>
           <span className="block">They Dunk</span>

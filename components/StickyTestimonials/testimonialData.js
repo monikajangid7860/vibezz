@@ -47,18 +47,7 @@ const testimonialData = [
     entry: 0.56,
     sparkle: false,
   },
-  {
-    id: "zoe",
-    name: "Zoë Bell",
-    role: "Bagel enthusiast",
-    text: "A toasted everything with scallion cream cheese. No notes. None.",
-    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=160&q=85",
-    desktopPosition: "lg:left-[39%] lg:bottom-[8%]",
-    mobilePosition: "left-1/2 top-[74%] -translate-x-1/2",
-    rotation: 2,
-    entry: 0.72,
-    sparkle: true,
-  },
+  
 ];
 
 export default testimonialData;
