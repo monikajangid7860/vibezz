@@ -6,6 +6,7 @@ import HeroHeading from "../components/HeroHeading/HeroHeading";
 import StickyTestimonials from "../components/StickyTestimonials/StickyTestimonials";
 import Marquee from "../components/BagelPhysics/Marquee";
 import Menu  from "../components/BagelPhysics/Menu"
+import Header from "../components/header/Header";
 const sections = [
   ["01", "Boiled, then baked.", "The best bagels take their time. Ours start before sunrise, with a long ferment and a proper boil."],
   ["02", "A little ritual.", "Sesame on your sleeve, coffee in hand, a slow corner of the day that belongs only to you."],
@@ -14,6 +15,7 @@ const sections = [
 
 export default function Home() {
   return (
+    <><Header/>
     <main className="relative min-h-[200vh] overflow-x-clip bg-[#e9dfcf] text-[#302217]">
       <BagelCanvas />
       <FoodOrbit/>
@@ -31,13 +33,13 @@ export default function Home() {
         {sections.map(([number, title, copy], index) => (
           <section key={number} className={`flex min-h-[72vh] items-center ${index % 2 ? "justify-end" : "justify-start"}`}>
             <article className="max-w-sm rounded-[1.5rem] bg-[#f4ede1]/82 p-8 shadow-[0_18px_55px_rgba(69,47,27,0.08)] backdrop-blur-sm sm:p-10">
-              <span className="text-xs font-bold tracking-[0.2em] text-[#a67a4e]">{number}</span>
+            <span className="text-xs font-bold tracking-[0.2em] text-[#a67a4e]">{number}</span>
               <h2 className="mt-4 font-display text-5xl leading-[0.9] tracking-[-0.05em]">{title}</h2>
               <p className="mt-5 leading-relaxed text-[#705741]">{copy}</p>
-            </article>
-          </section>
-        ))}
-      </div> */}
+              </article>
+              </section>
+              ))}
+              </div> */}
       <Asection/>
       
       <StickyTestimonials/>
@@ -48,6 +50,8 @@ export default function Home() {
           {/* <p className="max-w-48 text-sm leading-relaxed text-[#442b03]">Open every day, 7am until sold out.</p> */}
         </div>
       </footer>
+              
     </main>
+    </>
   );
 }
