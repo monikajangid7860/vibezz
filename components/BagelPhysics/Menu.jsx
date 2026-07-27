@@ -224,7 +224,7 @@ export default function BakeryMenuShowcase() {
                         : "0 0 0 rgba(0,0,0,0)",
                     }}
                   >
-                    <div className="flex items-baseline gap-3 sm:gap-4">
+                    <div className="flex items-baseline gap-3 sm:gap-3">
                       <span
                         className="shrink-0 text-[10px] tracking-[0.2em] transition-opacity duration-300 sm:text-[11px]"
                         style={{
@@ -236,7 +236,7 @@ export default function BakeryMenuShowcase() {
                         {String(idx + 1).padStart(2, "0")}
                       </span>
                       <h3
-                        className="min-w-0 flex-1 uppercase leading-[0.95] transition-opacity duration-300 [font-size:clamp(0.25rem,0.5vw,0.75rem)] md:[font-size:18px] lg:[font-size:clamp(22px,1vw,25px)]"
+                        className="min-w-0 flex-1 uppercase leading-[0.95] transition-opacity duration-300 [font-size:clamp(1rem,1.5vw,1.50rem)] md:[font-size:18px] lg:[font-size:clamp(22px,1vw,25px)]"
                         style={{
                           fontFamily: DISPLAY_FONT,
                           fontWeight: 900,
