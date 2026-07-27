@@ -13,18 +13,18 @@ const sections = [
 
 export default function Home() {
   return (
-    <main className="relative min-h-[320vh] overflow-x-clip bg-[#e9dfcf] text-[#302217]">
+    <main className="relative min-h-[200vh] overflow-x-clip bg-[#e9dfcf] text-[#302217]">
       <BagelCanvas />
       <FoodOrbit/>
       <InteractiveAccordion/>
-      <section className="relative z-10 flex min-h-[75vh]  items-center justify-center px-6 text-center">
+      <Marquee/>
+      <section className="relative z-10 flex min-h-[70vh]  items-center justify-center px-6 text-center">
         <div className="max-w-4xl rounded-[2rem] bg-[#e9dfcf]/72 px-7 py-10 backdrop-blur-[2px] sm:px-14 sm:py-14">
           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#886a50]">The neighborhood bakery</p>
           <HeroHeading />
           <p className="mx-auto mt-8 max-w-sm text-sm leading-relaxed text-[#745a44] sm:text-base">Scroll slowly. The kitchen is already at work.</p>
         </div>
       </section>
-      <Marquee/>
       {/* <div className="relative z-10 mx-auto max-w-6xl px-6 pb-[65vh]">
         {sections.map(([number, title, copy], index) => (
           <section key={number} className={`flex min-h-[72vh] items-center ${index % 2 ? "justify-end" : "justify-start"}`}>
