@@ -125,7 +125,7 @@ export default function BakeryMenuShowcase() {
           ref={imageAreaRef}
           onMouseMove={handleMouseMove}
           onMouseLeave={handleMouseLeave}
-          className="relative flex h-[320px] items-center justify-center sm:h-[340px] md:h-[440px] lg:h-auto lg:min-h-[95vh] lg:basis-[55%]"
+          className="order-2 relative flex h-[320px] items-center justify-center sm:h-[340px] md:h-[440px] lg:h-auto lg:min-h-[95vh] lg:basis-[55%]"
         >
           {/* ambient glow, grounds the floating pastry without a frame */}
           <motion.div
