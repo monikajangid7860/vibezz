@@ -33,7 +33,7 @@ export default function FoodOrbit() {
   }, [goNext, isHovered]);
 
   return (
-    <section className="relative mx-auto flex min-h-[calc(100vh-2rem)] max-w-[1600px] select-none flex-col items-center overflow-hidden rounded-[1.75rem] bg-[#e9dfcf] px-5 pb-9 pt-9 text-[#34271c] shadow-[0_24px_70px_rgba(82,57,32,0.14)] sm:min-h-[calc(100vh-3rem)] sm:px-8 lg:min-h-[calc(100vh-4rem)]" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+    <section className="relative mx-auto flex min-h-[calc(100vh-2rem)] max-w-full select-none flex-col items-center overflow-hidden rounded-[1.75rem] bg-[#e9dfcf] px-5 pb-9 pt-9 text-[#34271c] shadow-[0_24px_70px_rgba(82,57,32,0.14)] sm:min-h-[calc(100vh-3rem)] sm:px-8 lg:min-h-[calc(100vh-4rem)]" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
       <div className="absolute inset-x-0 top-0 h-[58%] bg-[radial-gradient(ellipse_at_center,_rgba(255,251,243,0.9)_0%,_rgba(255,251,243,0)_70%)]" />
       <p className="relative mt-[clamp(2rem,8vh,6rem)] flex items-center gap-3 text-[10px] font-semibold uppercase tracking-[0.28em] text-[#8b7158] before:h-px before:w-7 before:bg-current after:h-px after:w-7 after:bg-current">Made slowly, served warmly</p>
       <h1 className="relative mt-5 max-w-4xl text-center font-display text-[clamp(3.6rem,9vw,8.5rem)] leading-[0.8] tracking-[-0.065em] text-[#2d2118]">Taste the little<br />things</h1>
